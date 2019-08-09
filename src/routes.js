@@ -48,5 +48,10 @@ module.exports = [
     path: '/css',
     name: 'css',
     component: 'css'
+  },
+  {
+    path: '/event-testing',
+    name: 'event-testing',
+    component: 'event-testing'
   }
 ]
