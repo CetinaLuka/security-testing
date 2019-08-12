@@ -1,58 +1,33 @@
 module.exports = [
   {
-    path: '/render-file-read',
-    name: 'render-file-read',
-    component: 'render-file-read'
+    path: '/doc-hook',
+    name: 'doc-hook',
+    component: 'doc-hook'
   },
   {
-    path: '/general',
-    name: 'general',
-    component: 'general'
+    path: '/doc-before-mount',
+    name: 'doc-before-mount',
+    component: 'doc-before-mount'
   },
   {
-    path: '/render-trigger-file-read',
-    name: 'render-trigger-file-read',
-    component: 'render-trigger-file-read'
+    path: '/doc-in-mount',
+    name: 'doc-in-mount',
+    component: 'doc-in-mount'
   },
   {
-    path: '/store',
-    name: 'store',
-    component: 'store'
+    path: '/doc-before-update',
+    name: 'doc-before-update',
+    component: 'doc-before-update'
   },
   {
-    path: '/store-parent',
-    name: 'store-parent',
-    component: 'store-parent'
-  },
-  {
-    path: '/data-vm',
-    name: 'data-vm',
-    component: 'data-vm'
-  },
-  {
-    path: '/require',
-    name: 'require',
-    component: 'require'
-  },
-  {
-    path: '/db',
-    name: 'db',
-    component: 'db'
+    path: '/doc-updated',
+    name: 'doc-updated',
+    component: 'doc-updated'
   },
   {
     path: '/dom',
     name: 'dom',
     component: 'dom'
-  },
-  {
-    path: '/css',
-    name: 'css',
-    component: 'css'
-  },
-  {
-    path: '/event-testing',
-    name: 'event-testing',
-    component: 'event-testing'
   },
   {
     path: '/doc-access',

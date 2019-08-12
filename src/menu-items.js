@@ -1,46 +1,30 @@
 module.exports = [
   {
-    routeName: 'general',
-    title: 'General'
+    routeName: 'doc-hook',
+    title: 'Doc in hook'
   },
   {
-    routeName: 'render-file-read',
-    title: 'Render File Read'
+    routeName: 'doc-before-mount',
+    title: 'Doc before mount'
   },
   {
-    routeName: 'render-trigger-file-read',
-    title: 'Render Trigger File Read'
+    routeName: 'doc-in-mount',
+    title: 'Doc in mounted'
   },
   {
-    routeName: 'store',
-    title: 'Store'
+    routeName: 'doc-before-update',
+    title: 'Doc before update'
   },
   {
-    routeName: 'store-parent',
-    title: 'Store Parent'
-  },
-  {
-    routeName: 'data-vm',
-    title: 'Data VM'
-  },
-  {
-    routeName: 'require',
-    title: 'Require'
+    routeName: 'doc-updated',
+    title: 'Doc update'
   },
   {
     routeName: 'dom',
     title: 'External DOM access'
   },
   {
-    routeName: 'db',
-    title: 'DB Direct access'
-  },
-  {
     routeName: 'doc-access',
     title: 'Document access'
-  },
-  {
-    routeName: 'event-testing',
-    title: 'Event testing'
   },
 ]
