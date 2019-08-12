@@ -4,40 +4,26 @@ module.exports = {
       <h1>Document</h1>
       <button @click="accessDocument">access document</button>
       <p>{{ document }}</p>
-
-      <h1>Window</h1>
-      <button @click="accessWindow">access window</button>
-      <p>{{ window }}</p>
     </div>
   `,
 
   data () {
     return {
       document: 'result',
-      window: 'result',
     }
   },
   methods: {
     accessDocument() {
       try {
-      var a = document.getElementById("app")
-      this.document = 'success'
-      console.log(a)
-      return
+          var a = document.getElementById("app")
+          var b = document.baseURI
+          console.log(b)
+          this.document = 'success'
+          console.log(a)
+          return
       } catch (error) {
-      this.document = 'failure'
-      console.log(error)
-      }
-    },
-    accessWindow() {
-      try {
-      var a = window.innerWidth
-      this.window = 'success'
-      console.log(a)	
-      return
-      } catch (error) {
-      this.window = 'failure'
-      console.log(error)
+          this.document = 'failure'
+          console.log(error)
       }
     }
   }

@@ -36,8 +36,8 @@ module.exports = [
     title: 'DB Direct access'
   },
   {
-    routeName: 'Document/Window Access',
-    title: 'CSS access'
+    routeName: 'doc-access',
+    title: 'Document access'
   },
   {
     routeName: 'event-testing',

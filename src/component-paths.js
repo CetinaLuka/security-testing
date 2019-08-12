@@ -10,4 +10,5 @@ module.exports = {
   'db': 'pages/Db.js',
   'css': 'pages/Css.js',
   'event-testing': 'pages/EventTesting.js',
+  'doc-access': 'pages/DocumentWindow.js',
 }

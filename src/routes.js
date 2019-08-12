@@ -53,5 +53,10 @@ module.exports = [
     path: '/event-testing',
     name: 'event-testing',
     component: 'event-testing'
+  },
+  {
+    path: '/doc-access',
+    name: 'doc-access',
+    component: 'doc-access'
   }
 ]
