@@ -16,8 +16,6 @@ module.exports = {
     accessDocument() {
       try {
           var a = document.getElementById("app")
-          var b = document.baseURI
-          console.log(b)
           this.document = 'success'
           console.log(a)
           return
