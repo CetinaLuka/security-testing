@@ -20,6 +20,26 @@ module.exports = [
     title: 'Doc update'
   },
   {
+    routeName: 'doc-before-destroy',
+    title: 'Doc before destroy'
+  },
+  {
+    routeName: 'doc-in-destroy',
+    title: 'Document in destroy'
+  },
+  {
+    routeName: 'external-dom-information',
+    title: 'External DOM information'
+  },
+  {
+    routeName: 'external-dom-render',
+    title: 'External DOM on render'
+  },
+  {
+    routeName: 'external-dom-trigger',
+    title: 'External DOM on render trigger'
+  },
+  {
     routeName: 'dom',
     title: 'External DOM access'
   },

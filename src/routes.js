@@ -25,6 +25,31 @@ module.exports = [
     component: 'doc-updated'
   },
   {
+    path: '/doc-before-destroy',
+    name: 'doc-before-destroy',
+    component: 'doc-before-destroy'
+  },
+  {
+    path: '/doc-in-destroy',
+    name: 'doc-in-destroy',
+    component: 'doc-in-destroy'
+  },
+  {
+    path: '/external-dom-information',
+    name: 'external-dom-information',
+    component: 'external-dom-information'
+  },
+  {
+    path: '/external-dom-render',
+    name: 'external-dom-render',
+    component: 'external-dom-render'
+  },
+  {
+    path: '/external-dom-trigger',
+    name: 'external-dom-trigger',
+    component: 'external-dom-trigger'
+  },
+  {
     path: '/dom',
     name: 'dom',
     component: 'dom'

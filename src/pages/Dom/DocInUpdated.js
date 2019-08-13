@@ -7,7 +7,6 @@ module.exports = {
         <span v-else-if="hookRan.updated === false" style="background-color: orange; color: white">Doesn't run hook</span>
         <span v-else-if="!doc.updated" style="background-color: green; color: white">NO</span>
       </div>
-      <webview src="https://www.google.co.uk" />
     </div>
 	`,
 
