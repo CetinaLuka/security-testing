@@ -50,6 +50,36 @@ module.exports = [
     component: 'external-dom-trigger'
   },
   {
+    path: '/external-dom-add',
+    name: 'external-dom-add',
+    component: 'external-dom-add'
+  },
+  {
+    path: '/external-dom-modify',
+    name: 'external-dom-modify',
+    component: 'external-dom-modify'
+  },
+  {
+    path: '/external-dom-remove',
+    name: 'external-dom-remove',
+    component: 'external-dom-remove'
+  },
+  {
+    path: '/external-dom-events',
+    name: 'external-dom-events',
+    component: 'external-dom-events'
+  },
+  {
+    path: '/external-dom-events-not-on-page',
+    name: 'external-dom-events-not-on-page',
+    component: 'external-dom-events-not-on-page'
+  },
+  {
+    path: '/external-dom-events-disabled',
+    name: 'external-dom-events-disabled',
+    component: 'external-dom-events-disabled'
+  },
+  {
     path: '/dom',
     name: 'dom',
     component: 'dom'

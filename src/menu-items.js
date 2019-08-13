@@ -40,6 +40,30 @@ module.exports = [
     title: 'External DOM on render trigger'
   },
   {
+    routeName: 'external-dom-add',
+    title: 'Add content to DOM'
+  },
+  {
+    routeName: 'external-dom-modify',
+    title: 'Modify external DOM'
+  },
+  {
+    routeName: 'external-dom-remove',
+    title: 'Remove DOM nodes'
+  },
+  {
+    routeName: 'external-dom-events',
+    title: 'Listen events on page'
+  },
+  {
+    routeName: 'external-dom-events-not-on-page',
+    title: 'Listen events not on page'
+  },
+  {
+    routeName: 'external-dom-events-disabled',
+    title: 'Listen events disabled'
+  },
+  {
     routeName: 'dom',
     title: 'External DOM access'
   },

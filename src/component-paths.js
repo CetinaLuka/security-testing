@@ -9,6 +9,12 @@ module.exports = {
   'external-dom-information': 'pages/Dom/ExternalDom.js',
   'external-dom-render': 'pages/Dom/ExternalDomRender.js',
   'external-dom-trigger': 'pages/Dom/ExternalDomTrigger.js',
+  'external-dom-add': 'pages/Dom/ExternalDomAdd.js',
+  'external-dom-modify': 'pages/Dom/ExternalDomModify.js',
+  'external-dom-remove': 'pages/Dom/ExternalDomRemove.js',
+  'external-dom-events': 'pages/Dom/ExternalDomEvents.js',
+  'external-dom-events-not-on-page': 'pages/Dom/ExternalDomEventsNotOnPage.js',
+  'external-dom-events-disabled': 'pages/Dom/ExternalDomEventsDisabled.js',
   'dom': 'pages/Dom.js',
   'doc-access': 'pages/DocumentWindow.js',
 }
