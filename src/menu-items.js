@@ -64,6 +64,10 @@ module.exports = [
     title: 'Listen events disabled'
   },
   {
+    routeName: 'additional-tests',
+    title: 'Additional tests'
+  },
+  {
     routeName: 'dom',
     title: 'External DOM access'
   },

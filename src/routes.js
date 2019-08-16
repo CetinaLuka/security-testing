@@ -80,6 +80,11 @@ module.exports = [
     component: 'external-dom-events-disabled'
   },
   {
+    path: '/additional-tests',
+    name: 'additional-tests',
+    component: 'additional-tests'
+  },
+  {
     path: '/dom',
     name: 'dom',
     component: 'dom'

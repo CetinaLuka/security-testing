@@ -15,6 +15,7 @@ module.exports = {
   'external-dom-events': 'pages/Dom/ExternalDomEvents.js',
   'external-dom-events-not-on-page': 'pages/Dom/ExternalDomEventsNotOnPage.js',
   'external-dom-events-disabled': 'pages/Dom/ExternalDomEventsDisabled.js',
+  'additional-tests': 'pages/AdditionalTests.js',
   'dom': 'pages/Dom.js',
   'doc-access': 'pages/DocumentWindow.js',
 }

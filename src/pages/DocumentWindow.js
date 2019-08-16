@@ -15,13 +15,13 @@ module.exports = {
   methods: {
     accessDocument() {
       try {
-          var a = document.getElementById("app")
-          this.document = 'success'
-          console.log(a)
-          return
+        var a = document.getElementById("app")
+        this.document = 'success'
+        console.log(a)
+        return
       } catch (error) {
-          this.document = 'failure'
-          console.log(error)
+        this.document = 'failure'
+        console.log(error)
       }
     }
   }
